@@ -9,6 +9,6 @@
 
 #停车场对象
 class Parking(object):
-    def __init__(self, pid, num):
-        self.pid = pid
+    def __init__(self, park_id, num):
+        self.park_id = park_id
         self.num = num

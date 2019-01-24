@@ -9,7 +9,7 @@
 
 #车位对象
 class ParkLot(object):
-    def __init__(self, plid, pid, cid):
-        self.plid = plid
-        self.pid = pid
-        self.cid = cid
+    def __init__(self, park_lot_id, park_id, car_id):
+        self.park_lot_id = park_lot_id
+        self.park_id = park_id
+        self.car_id = car_id

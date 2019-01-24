@@ -9,8 +9,8 @@
 
 #停车记录对象
 class ParkingRecord(object):
-    def __init__(self, cid):
-        self.cid = cid
+    def __init__(self, car_id):
+        self.car_id = car_id
         self.in_time = 0
         self.stop_time = 0
         self.move_time = 0

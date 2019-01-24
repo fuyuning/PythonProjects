@@ -9,7 +9,7 @@
 
 #车主对象:车牌号，电话，身份证
 class Customer(object):
-    def __init__(self, cid, phone, no):
-        self.cid = cid
+    def __init__(self, car_id, phone, id_card_no):
+        self.car_id = car_id
         self.phone = phone
-        self.no = no
+        self.id_card_no = id_card_no
